@@ -1,0 +1,459 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		81324C172ABB5383003251B3 /* hak_22_09App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81324C162ABB5383003251B3 /* hak_22_09App.swift */; };
+		81324C192ABB5383003251B3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81324C182ABB5383003251B3 /* ContentView.swift */; };
+		81324C1B2ABB5384003251B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81324C1A2ABB5384003251B3 /* Assets.xcassets */; };
+		81324C1E2ABB5384003251B3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81324C1D2ABB5384003251B3 /* Preview Assets.xcassets */; };
+		81324C252ABB5522003251B3 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81324C242ABB5522003251B3 /* CameraView.swift */; };
+		814302BA2ABF664E00B94E83 /* Staff.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814302B92ABF664E00B94E83 /* Staff.swift */; };
+		814AD47F2ABE020200636B3F /* Api.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814AD47E2ABE020200636B3F /* Api.swift */; };
+		814AD4822ABE032400636B3F /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 814AD4812ABE032400636B3F /* Alamofire */; };
+		81C916032ABD9CE000309EFC /* ModelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C916022ABD9CE000309EFC /* ModelView.swift */; };
+		AB876EAE84823D5459AF63B2 /* Pods_hak_22_09.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4275AA91F6C06B2023600452 /* Pods_hak_22_09.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4275AA91F6C06B2023600452 /* Pods_hak_22_09.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_hak_22_09.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		81324C132ABB5383003251B3 /* hak_22.09.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hak_22.09.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		81324C162ABB5383003251B3 /* hak_22_09App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hak_22_09App.swift; sourceTree = "<group>"; };
+		81324C182ABB5383003251B3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		81324C1A2ABB5384003251B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		81324C1D2ABB5384003251B3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		81324C242ABB5522003251B3 /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		814302B92ABF664E00B94E83 /* Staff.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Staff.swift; sourceTree = "<group>"; };
+		814AD47E2ABE020200636B3F /* Api.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Api.swift; sourceTree = "<group>"; };
+		81C916022ABD9CE000309EFC /* ModelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelView.swift; sourceTree = "<group>"; };
+		E5EB764A4CBAFDF74A15B3DE /* Pods-hak_22.09.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hak_22.09.release.xcconfig"; path = "Target Support Files/Pods-hak_22.09/Pods-hak_22.09.release.xcconfig"; sourceTree = "<group>"; };
+		EA25E0B65E0DAD6A24F3BC36 /* Pods-hak_22.09.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hak_22.09.debug.xcconfig"; path = "Target Support Files/Pods-hak_22.09/Pods-hak_22.09.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		81324C102ABB5383003251B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB876EAE84823D5459AF63B2 /* Pods_hak_22_09.framework in Frameworks */,
+				814AD4822ABE032400636B3F /* Alamofire in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B27DDC5698212C32879195C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EA25E0B65E0DAD6A24F3BC36 /* Pods-hak_22.09.debug.xcconfig */,
+				E5EB764A4CBAFDF74A15B3DE /* Pods-hak_22.09.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		4AF50CBFF5947B37E0F40E97 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4275AA91F6C06B2023600452 /* Pods_hak_22_09.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		81324C0A2ABB5383003251B3 = {
+			isa = PBXGroup;
+			children = (
+				81324C152ABB5383003251B3 /* hak_22.09 */,
+				81324C142ABB5383003251B3 /* Products */,
+				1B27DDC5698212C32879195C /* Pods */,
+				4AF50CBFF5947B37E0F40E97 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		81324C142ABB5383003251B3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				81324C132ABB5383003251B3 /* hak_22.09.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		81324C152ABB5383003251B3 /* hak_22.09 */ = {
+			isa = PBXGroup;
+			children = (
+				81324C162ABB5383003251B3 /* hak_22_09App.swift */,
+				81324C182ABB5383003251B3 /* ContentView.swift */,
+				81324C1A2ABB5384003251B3 /* Assets.xcassets */,
+				81324C1C2ABB5384003251B3 /* Preview Content */,
+				81324C242ABB5522003251B3 /* CameraView.swift */,
+				81C916022ABD9CE000309EFC /* ModelView.swift */,
+				814AD47E2ABE020200636B3F /* Api.swift */,
+				814302B92ABF664E00B94E83 /* Staff.swift */,
+			);
+			path = hak_22.09;
+			sourceTree = "<group>";
+		};
+		81324C1C2ABB5384003251B3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				81324C1D2ABB5384003251B3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		81324C122ABB5383003251B3 /* hak_22.09 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81324C212ABB5384003251B3 /* Build configuration list for PBXNativeTarget "hak_22.09" */;
+			buildPhases = (
+				89A59D4DEF5E5E3EB0DAB345 /* [CP] Check Pods Manifest.lock */,
+				81324C0F2ABB5383003251B3 /* Sources */,
+				81324C102ABB5383003251B3 /* Frameworks */,
+				81324C112ABB5383003251B3 /* Resources */,
+				3F9E046366707DBEAADC3BAC /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = hak_22.09;
+			packageProductDependencies = (
+				814AD4812ABE032400636B3F /* Alamofire */,
+			);
+			productName = hak_22.09;
+			productReference = 81324C132ABB5383003251B3 /* hak_22.09.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		81324C0B2ABB5383003251B3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					81324C122ABB5383003251B3 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = 81324C0E2ABB5383003251B3 /* Build configuration list for PBXProject "hak_22.09" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 81324C0A2ABB5383003251B3;
+			packageReferences = (
+				814AD4802ABE032400636B3F /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
+			productRefGroup = 81324C142ABB5383003251B3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				81324C122ABB5383003251B3 /* hak_22.09 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		81324C112ABB5383003251B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81324C1E2ABB5384003251B3 /* Preview Assets.xcassets in Resources */,
+				81324C1B2ABB5384003251B3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3F9E046366707DBEAADC3BAC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-hak_22.09/Pods-hak_22.09-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-hak_22.09/Pods-hak_22.09-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-hak_22.09/Pods-hak_22.09-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		89A59D4DEF5E5E3EB0DAB345 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-hak_22.09-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		81324C0F2ABB5383003251B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				814302BA2ABF664E00B94E83 /* Staff.swift in Sources */,
+				81324C252ABB5522003251B3 /* CameraView.swift in Sources */,
+				81324C192ABB5383003251B3 /* ContentView.swift in Sources */,
+				81C916032ABD9CE000309EFC /* ModelView.swift in Sources */,
+				814AD47F2ABE020200636B3F /* Api.swift in Sources */,
+				81324C172ABB5383003251B3 /* hak_22_09App.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		81324C1F2ABB5384003251B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		81324C202ABB5384003251B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		81324C222ABB5384003251B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA25E0B65E0DAD6A24F3BC36 /* Pods-hak_22.09.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"hak_22.09/Preview Content\"";
+				DEVELOPMENT_TEAM = 6CCCYRW6R5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = see;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alexx-bobr.hak-22-09";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		81324C232ABB5384003251B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5EB764A4CBAFDF74A15B3DE /* Pods-hak_22.09.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"hak_22.09/Preview Content\"";
+				DEVELOPMENT_TEAM = 6CCCYRW6R5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = see;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alexx-bobr.hak-22-09";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		81324C0E2ABB5383003251B3 /* Build configuration list for PBXProject "hak_22.09" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81324C1F2ABB5384003251B3 /* Debug */,
+				81324C202ABB5384003251B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81324C212ABB5384003251B3 /* Build configuration list for PBXNativeTarget "hak_22.09" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81324C222ABB5384003251B3 /* Debug */,
+				81324C232ABB5384003251B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		814AD4802ABE032400636B3F /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		814AD4812ABE032400636B3F /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 814AD4802ABE032400636B3F /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 81324C0B2ABB5383003251B3 /* Project object */;
+}
